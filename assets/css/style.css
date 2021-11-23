@@ -423,7 +423,11 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-
+.skillcontt {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
 
 .skills .progress {
   height: 60px;
@@ -441,7 +445,7 @@ section {
   color: #45505b;
 }
 .skills .progress .skill .val {
-  float: right;
+  text-align: center;
   font-style: normal;
 }
 .skills .progress-bar-wrap {
