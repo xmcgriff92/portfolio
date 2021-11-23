@@ -882,6 +882,14 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.formcont {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  
+}
+
 .contact .info {
   width: 100%;
   background: #fff;
